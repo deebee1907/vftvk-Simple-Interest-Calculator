@@ -34,4 +34,4 @@ function rangevalue()
     document.getElementById("display_range").innerHTML = range + "%";
 }
 
-//End of script.js
+//End of script.js 
