@@ -1,7 +1,8 @@
+//Function to compute simple interest and print the result
 function compute()
 {
     var principal = document.getElementById("principal").value;
-    if(principal <= 0)
+    if(principal <= 0 || principal == "")
     {
         window.alert("Enter a positive number");
         document.getElementById("principal").focus();
@@ -24,8 +25,13 @@ function compute()
         return true;
     }
 }
+
+/* Function to dynamically display interest rate
+   as given by the range slider value */
 function rangevalue()
 {
     var range = document.getElementById("rate").value;
     document.getElementById("display_range").innerHTML = range + "%";
 }
+
+//End of script.js

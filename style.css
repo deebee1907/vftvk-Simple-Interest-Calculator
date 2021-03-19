@@ -1,14 +1,19 @@
+/* Changed the body tag style */
 body 
 {
     background-color: black;
     font-family: arial;
     color: white;
 }
+
+/* Changed the h1 tag style */
 h1
 {
     color: grey;
     font-family: verdana;
 }
+
+/* Created class 'maindiv' and styling it */
 .maindiv
 {
     background-color: white;
@@ -18,7 +23,11 @@ h1
     border-radius: 25px;
     margin: auto;
 }
+
+/* Additional class to style the calculator input */
 .container
 {
     text-align: left;
 }
+
+/* End of style.css */
